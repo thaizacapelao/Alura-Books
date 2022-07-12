@@ -42,7 +42,7 @@
 .lista-menu__titulo {
     color: var(--laranja);
     font-weight: 700;
-    font-family: "Poppins";
+    font-family: var(--fonte);
 }
 
 .lista-menu__link {
@@ -53,5 +53,9 @@
     text-decoration: none;
     text-transform: uppercase;
 
-    font-family: "Poppins";
+    font-family: var(--fonte);
+}
+
+.container__botao {
+    display: none;
 }
