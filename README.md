@@ -1,5 +1,7 @@
 # Projeto - Alura-Books.
 
+![firefox_wLILfNnd82](https://user-images.githubusercontent.com/104083691/178603273-244a686e-5951-4e44-a906-cf22bcb54329.png)
+
 ## 💻 Projeto:
 
 Plataforma de venda de livros online do site Alura.
