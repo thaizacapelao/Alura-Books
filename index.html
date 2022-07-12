@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/> 
     
 </head>
 <body>
@@ -51,6 +52,35 @@
             <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
             <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
         </section>
+        <section class="carrosel">
+                <h2 class="carrossel__titulo">Novos lançamentos</h2>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="img/ApacheKafka.png" alt="Livro sobre kafka e spring boot da alura books"></div>
+                <div class="swiper-slide"><img src="img/Liderança.png" alt="Livro sobre liderança em design da Alura Books"></div>
+                <div class="swiper-slide"><img src="img/Javascript.png" alt="Livro sobre JavaScript assertivo da Alurabooks"></div>
+                <div class="swiper-slide"><img src="img/Gestão2.png" alt="Livro sobre Gestão de produtos e como aumentar as chances de sucesso do seu software"></div>
+                <div class="swiper-slide"><img src="img/Nodejs.png" alt="Livro para construção de API modes utilizando Node JS"></div>
+                <div class="swiper-slide"><img src="img/Acessibilidade.png" alt="Livro de boas práticas para construir sites e aplicações acessiveis"></div>
+                <div class="swiper-slide"><img src="img/Guia Front-end.png" alt="Livro de guia para se tornar um Desenvolvedor Front-end"></div>
+                
+                ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+        </section>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </body>
 
 </html>
