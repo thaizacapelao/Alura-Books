@@ -6,7 +6,7 @@
     font-family: var(--fonte);
     font-size: 18px;
     font-weight: 700;
-    padding: 1em 0 0.5em 0 ;
+    padding: 1em 0 1em 0 ;
 }
 
 .swiper-slide img {
@@ -61,6 +61,7 @@
 
 .descricao__texto {
     font-size: 14px;
+    padding-right: 1em;
 }
 
 .descricao__imagem {
