@@ -57,6 +57,9 @@
             <!-- Slider main container -->
             <div class="swiper">
                 <!-- Additional required wrapper -->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
                 <div class="swiper-wrapper">
                 <!-- Slides -->
                 <div class="swiper-slide"><img src="img/ApacheKafka.png" alt="Livro sobre kafka e spring boot da alura books"></div>
@@ -66,21 +69,27 @@
                 <div class="swiper-slide"><img src="img/Nodejs.png" alt="Livro para construção de API modes utilizando Node JS"></div>
                 <div class="swiper-slide"><img src="img/Acessibilidade.png" alt="Livro de boas práticas para construir sites e aplicações acessiveis"></div>
                 <div class="swiper-slide"><img src="img/Guia Front-end.png" alt="Livro de guia para se tornar um Desenvolvedor Front-end"></div>
-                
+
                 ...
                 </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-            
+                
                 <!-- If we need navigation buttons -->
                 <div class="swiper-button-prev"></div>
                 <div class="swiper-button-next"></div>
             
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
             </div>
         </section>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
 </body>
 
 </html>
