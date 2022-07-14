@@ -1,0 +1,11 @@
+hr {
+    margin: 0;
+}
+
+.rodape {
+    background-color: var(--branco);
+    padding: 1.5em;
+
+    font-family: var(--fonte);
+    font-weight: 400;
+}

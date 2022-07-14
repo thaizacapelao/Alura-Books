@@ -1,23 +1,21 @@
 .contato {
     font-family: var(--fonte);
     background-color: var(--branco);
-    padding: 1.5em;
+    padding: 2em;
+
+    color: var(--azul);
 }
 
-.contato__titulo .contato__texto {
-    color: var(--azul-degrade);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
 
 .contato__titulo {
     font-weight: 500;
+    font-size: 18px;
 }
 
 .contato__texto {
     font-weight: 300;
     margin: 1em 0;
+    padding: 0.5em 0;
 }
 
 .contato__email {
