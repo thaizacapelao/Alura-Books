@@ -1,7 +1,10 @@
 # Projeto - Alura-Books.
 
-![firefox_wLILfNnd82](https://user-images.githubusercontent.com/104083691/178603273-244a686e-5951-4e44-a906-cf22bcb54329.png)
-![firefox_FOs1qbgECr](https://user-images.githubusercontent.com/104083691/178603494-5e6233ad-d05e-40a6-8555-303d9d5ce6f2.png)
+![firefox_Npw6VR3nta](https://user-images.githubusercontent.com/104083691/179044012-4d1d46dd-5d5d-4887-af88-a319a1aeb211.png)
+![firefox_0aInQjZsMQ](https://user-images.githubusercontent.com/104083691/179044316-9749128c-ca5c-4458-af86-90ae63e09ea8.png)
+
+
+
 
 ## 💻 Projeto:
 
