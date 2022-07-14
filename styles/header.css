@@ -1,13 +1,14 @@
-.cabecalho__menu-hamburguer {
+.cabeçalho__menu-hamburguer {
     width: 24px;
     height: 24px;
-    background-image: url(../img/Menu.svg);
+    background-image: url("../img/Menu.svg");
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
+    font-family: var(--fonte);
 }
 
-.cabecalho {
+.cabeçalho {
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
@@ -23,6 +24,7 @@
 .container__imagem {
     padding: 1em;
 }
+
 .lista-menu {
     display: none;
     position: absolute;
@@ -34,7 +36,8 @@
     display: block;
 }
 
-.lista-menu__titulo, .lista-menu__item {
+.lista-menu__titulo,
+.lista-menu__item {
     padding: 1em;
     background-color: var(--branco);
 }
@@ -42,7 +45,6 @@
 .lista-menu__titulo {
     color: var(--laranja);
     font-weight: 700;
-    font-family: var(--fonte);
 }
 
 .lista-menu__link {
@@ -50,10 +52,8 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-decoration: none;
     text-transform: uppercase;
-
-    font-family: var(--fonte);
+    text-decoration: none;
 }
 
 .container__botao {
