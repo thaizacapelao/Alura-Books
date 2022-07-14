@@ -16,6 +16,8 @@ Plataforma de venda de livros online do site Alura.
 -   [ ] Trabalhando com o flex box;
 -   [ ] Criação de Cards;
 -   [ ] Construção de um menu hamburguer utilizando apenas CSS;
+-   [ ] Aplicando plugins externos através de CDN;
+
 
 ## ✨ Linguagens utilizadas:
 
