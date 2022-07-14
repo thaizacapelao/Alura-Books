@@ -29,4 +29,4 @@ Plataforma de venda de livros online do site Alura.
 
 ## 🔖 Layout:
 
-Você pode visualizar o layout do projeto através [desse link](https://thaizacapelao.github.io/Tela-de-login-League-of-legends/).
+Você pode visualizar o layout do projeto através [desse link](https://thaizacapelao.github.io/Alura-Books/).
