@@ -80,3 +80,28 @@
     text-decoration: none;
     border-radius: 18px;
 }
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 55%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: block;
+        top: 55%;
+    }
+
+    .card {
+        width: 50%;
+        margin: 2em auto;
+    }
+}

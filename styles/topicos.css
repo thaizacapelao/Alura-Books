@@ -30,3 +30,14 @@
     font-weight: 700;
     border-radius: 18px;
 }
+
+@media screen and (min-width: 1024px) {
+    .tópicos__titulo {
+        font-size: 24px;
+    }
+
+    .tópicos__link {
+        font-size: 18px;
+    }
+    
+}
