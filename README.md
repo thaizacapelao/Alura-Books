@@ -2,8 +2,15 @@
 
 versão mobile:
 <br> <br>
-![firefox_Npw6VR3nta](https://user-images.githubusercontent.com/104083691/179044012-4d1d46dd-5d5d-4887-af88-a319a1aeb211.png)
-![firefox_0aInQjZsMQ](https://user-images.githubusercontent.com/104083691/179044316-9749128c-ca5c-4458-af86-90ae63e09ea8.png)
+
+![firefox_6KhilzNLJ1](https://user-images.githubusercontent.com/104083691/179618490-825266fc-8f58-4562-b196-bfd18bf231d3.gif)
+
+
+versão tablet:
+<br><br>
+
+![firefox_dtKwuMcWWC](https://user-images.githubusercontent.com/104083691/179618496-9a8f8d22-fc55-4093-a416-f1e4009cce91.gif)
+
 
 ##
 
