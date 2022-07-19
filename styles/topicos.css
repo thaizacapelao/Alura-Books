@@ -1,7 +1,7 @@
 .tópicos {
     background: var(--azul-degrade);
     text-align: center;
-    padding: 1em 0;
+    padding: 2em 0;
 }
 
 .tópicos__titulo {
@@ -17,7 +17,7 @@
 }
 
 .tópicos__item {
-    margin: 2em 0.5em;
+    margin: 1.5em 0.5em;
 }
 
 .tópicos__link {
@@ -25,9 +25,9 @@
     padding: 1em;
     background-color: var(--laranja);
     text-decoration: none;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 700;
-    border-radius: 24px;
+    border-radius: 8px;
 }
 
 @media screen and (min-width: 1024px) {
