@@ -45,4 +45,12 @@
     .tópicos {
         padding: 3em 30vw;
     }
+
+    .tópicos__link {
+        font-size: 20px;
+    }
+
+    .tópicos__item {
+        padding-top: 1em;
+    }
 }
