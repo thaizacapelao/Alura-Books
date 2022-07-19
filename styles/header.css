@@ -5,7 +5,14 @@
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
-    font-family: var(--fonte);
+}
+
+.container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer {
+    background-image: url("../img/Menu Aberto.svg");
+}
+
+.container__botao:checked~.container__rotulo {
+    background: var(--azul-degrade);
 }
 
 .cabeçalho {
@@ -62,6 +69,7 @@
 
 .container__titulo {
     display: none;
+    margin-right: 2em;
 }
 
 .opções {
@@ -73,10 +81,11 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .container__titulo, .container__titulo--negrito {
-        font-family: var(--fonte-secundaria);
+
+    .container__titulo,
+    .container__titulo--negrito {
+        font-family: var(--fonte-secundario);
         font-size: 30px;
-        color: var(--preto);
     }
 
     .container__titulo {
@@ -93,10 +102,10 @@
     }
 
     .opções__item {
-        padding: 0 2.5em;
+        padding: 0 1em;
         text-transform: uppercase;
     }
-    
+
     .opções__link {
         text-decoration: none;
         color: var(--preto);
@@ -110,7 +119,7 @@
         display: none;
     }
 
-    .opções__botão:checked ~ .lista-menu {
+    .opções__botão:checked~.lista-menu {
         display: block;
         width: auto;
     }
@@ -118,6 +127,29 @@
     .opções__botão {
         display: none;
     }
+
+    .opções__botão:checked~.opções__rotulo>.opções__item {
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+
+    .opções__item {
+        padding: 2em 1em;
+    }
+
+    .lista-menu__item:hover {
+        background: var(--azul-degrade);
+    }
+
+    .lista-menu__item:hover>.lista-menu__link {
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
+    }
+
+    .lista-menu__link {
+        text-decoration: none;
+    }
+
 }
 
 @media screen and (min-width: 1728px) {
@@ -126,18 +158,21 @@
         align-items: center;
         text-decoration: none;
         color: var(--preto);
-
     }
 
     .cabeçalho {
-        padding: 0 3em;
+        padding: 0 2em;
     }
-    
+
     .opções {
         margin-right: auto;
     }
 
     .container__texto {
         display: block;
+    }
+
+    .lista-menu__link {
+        text-decoration: none;
     }
 }
