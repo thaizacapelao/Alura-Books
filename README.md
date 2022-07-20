@@ -17,7 +17,6 @@ versão mobile:
 ![firefox_6KhilzNLJ1](https://user-images.githubusercontent.com/104083691/179618490-825266fc-8f58-4562-b196-bfd18bf231d3.gif)
 
 
-
 ##
 
 
