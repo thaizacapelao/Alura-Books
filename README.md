@@ -1,6 +1,5 @@
 # Alura-Books.
 
-
 versão desktop: 
 <br><br>
 
